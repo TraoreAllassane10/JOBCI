@@ -28,7 +28,7 @@ const Login = () => {
               </label>
               <input
                 type="text"
-                className="px-4 py-3 bg-(--color-input) rounded outline-none"
+                className="px-4 py-3 bg-white rounded outline-none"
               />
             </div>
 
@@ -36,7 +36,7 @@ const Login = () => {
               <label className="text-(--text-primary)">Mot de passe</label>
               <input
                 type="text"
-                className="px-4 py-3 bg-(--color-input) rounded outline-none"
+                className="px-4 py-3 bg-white rounded outline-none"
               />
               <a
                 href=""
@@ -50,7 +50,7 @@ const Login = () => {
               Connexion
             </button>
 
-            <button className="flex items-center justify-center gap-6 px-6 py-3 text-(--text-secondary) border border-gray-200 rounded-md hover:bg-(--color-secondary) hover:text-white transition">
+            <button className="flex items-center justify-center gap-6 px-6 py-3 text-(--text-secondary) border border-gray-300 rounded-md hover:bg-(--color-secondary) hover:text-white transition">
               <img src={GoogleIcon} alt="Google icon" width={18} height={18} />{" "}
               Se connecter avec google
             </button>
