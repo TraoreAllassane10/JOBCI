@@ -6,7 +6,7 @@ const Favoris = () => {
   return (
     <>
       <NavBar />
-      <div className="max-w-7xl mx-auto my-16">
+      <div className="mx-5 md:max-w-7xl md:mx-auto my-16">
         <h1 className="text-(--text-primary) font-bold text-3xl mb-6">
           Mes Favoris
         </h1>

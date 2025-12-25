@@ -1,8 +1,12 @@
-import { Bookmark } from 'lucide-react'
+import { Bookmark } from "lucide-react";
+import NavBar from "../../components/NavBar";
 
-const DetailOffre = () => {
+const Detail = () => {
   return (
-     <div>
+    <div>
+      <NavBar />
+      <div className="mx-5 md:max-w-7xl md:mx-auto my-16">
+        <div className="bg-white p-4 rounded">
           <div className="mb-4">
             <h1 className="text-4xl text-(--text-primary) font-bold">Nounou</h1>
             <p className="text-md text-(--text-secondary)">
@@ -81,7 +85,9 @@ const DetailOffre = () => {
             </div>
           </div>
         </div>
-  )
-}
+      </div>
+    </div>
+  );
+};
 
-export default DetailOffre
+export default Detail;
