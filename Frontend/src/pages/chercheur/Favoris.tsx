@@ -1,5 +1,4 @@
 import CardOffre from "../../components/CardOffre";
-import DetailOffre from "../../components/DetailOffre";
 import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
 
@@ -12,20 +11,15 @@ const Favoris = () => {
           Mes Favoris
         </h1>
 
-        <div className="flex gap-8">
-          <div className="space-y-4 w-3/4">
-            <CardOffre />
-            <CardOffre />
-            <CardOffre />
-            <CardOffre />
-          </div>
-
-          <div className="w-1/4">
-            <DetailOffre/>
-          </div>
+        <div className="space-y-4 ">
+          <CardOffre />
+          <CardOffre />
+          <CardOffre />
+          <CardOffre />
         </div>
       </div>
-      <Footer/>
+
+      <Footer />
     </>
   );
 };

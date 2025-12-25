@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="mx-5 mt-10 flex justify-between">
-      <div className="flex gap-2 place-items-center text-(--text-secondary)">
+    <div className="absolute bottom-auto mx-5 mt-10 flex md:justify-between">
+      <div className="flex flex-col md:flex-row gap-2 place-items-center text-(--text-secondary)">
         <Logo />
         <span> | Copyright @ Allassane Traore | </span>
         <span>Tous les droits sont réservés</span>
       </div>
 
-      <div className="flex gap-2 place-items-center">
+      <div className="flex flex-col md:flex-row gap-2 place-items-center">
         <Link to="/">
           <Facebook />
         </Link>

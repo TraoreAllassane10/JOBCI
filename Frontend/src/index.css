@@ -136,7 +136,11 @@ button
   * {
     @apply border-border outline-ring/50;
     }
-  body {
-    @apply bg-background text-foreground;
+    
+    td{
+        @apply p-2 text-(--text-secondary)
     }
+  /* body {
+    @apply bg-background text-foreground;
+    } */
 }

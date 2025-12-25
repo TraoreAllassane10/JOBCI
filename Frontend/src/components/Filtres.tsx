@@ -5,7 +5,7 @@ const Filtres = () => {
   return (
     <div>
       {/* Filtres */}
-      <div>
+      <div >
         {/* Tittre et bouton effacer */}
         <div className="flex justify-between place-items-center mb-4">
           <h2 className="text-xl text-(--text-primary) font-semibold">

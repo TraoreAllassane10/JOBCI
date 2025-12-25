@@ -12,7 +12,7 @@ const NavBar = () => {
         <Logo />
 
         <div className="hidden md:flex gap-4 place-items-center text-(--text-secondary) font-light ">
-          <Link to="" className="text-sm ">
+          <Link to="/candidatures" className="text-sm ">
             Mes candidatures
           </Link>
           <Link
@@ -37,7 +37,7 @@ const NavBar = () => {
         {/* Menu Mobile */}
         <div className="md:hidden">
           <button onClick={() => setOpenMenu(true)}>
-            <MenuSquare className="text-white" />
+            <MenuSquare className="text-black" />
           </button>
 
           <div
@@ -56,10 +56,10 @@ const NavBar = () => {
             </div>
 
             <nav className="flex flex-col gap-6 px-6 py-10 text-gray-800">
-              <Link to="" className="text-lg font-medium active:opacity-75 ">
+              <Link to="/candidatures" className="text-lg font-medium active:opacity-75 ">
                 Mes candidatures
               </Link>
-              <Link to="" className="text-lg font-medium active:opacity-75">
+              <Link to="/favoris" className="text-lg font-medium active:opacity-75">
                 Mes favoris
               </Link>
               <Link to="" className="text-lg font-medium active:opacity-75">

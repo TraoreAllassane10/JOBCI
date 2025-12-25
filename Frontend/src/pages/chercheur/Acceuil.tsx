@@ -1,9 +1,8 @@
 import { MapPin, Search } from "lucide-react";
 import Hero from "../../components/Hero";
 import Filtres from "../../components/Filtres";
-
 import CardOffre from "../../components/CardOffre";
-import DetailOffre from "../../components/DetailOffre";
+
 import Footer from "../../components/Footer";
 
 const Acceuil = () => {
@@ -44,18 +43,17 @@ const Acceuil = () => {
       </div>
 
       {/* Affichage des cartes, filtres ainsi que les dtails */}
-      <div className="mx-5 grid grid-cols-3 gap-6">
-        <Filtres />
+      <div className="mx-5 flex gap-10">
+        <div className="1/4">
+          <Filtres />
+        </div>
 
         {/* Cartes */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 w-3/4">
           <CardOffre />
           <CardOffre />
           <CardOffre />
         </div>
-
-        {/* détails d'une offre */}
-        <DetailOffre />
       </div>
 
       <Footer/>
