@@ -38,7 +38,7 @@ const CardOffre = () => {
         </div>
       </div>
 
-      <div className="bg-[#EBF3F8] px-4 py-2">
+      <div className="bg-[#EBF3F8] px-4 py-2 rounded-br-md rounded-bl-md">
         <div className="flex gap-4 justify-between">
           <span className="text-sm text-(--text-secondary)">
             Posté, il y a 3 min

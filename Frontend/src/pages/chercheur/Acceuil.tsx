@@ -43,20 +43,23 @@ const Acceuil = () => {
       </div>
 
       {/* Affichage des cartes, filtres ainsi que les dtails */}
-      <div className="mx-5 flex gap-10">
-        <div className="1/4">
+      <div className="mx-5 flex flex-col md:flex-row gap-10">
+        <div className="1/4 hidden md:block">
           <Filtres />
         </div>
 
+        {/* Filtre mobile */}
+        <button className="bg-(--color-secondary) text-white text-md py-1  md:hidden">Filtre</button>
+
         {/* Cartes */}
-        <div className="flex flex-col gap-6 w-3/4">
+        <div className="flex flex-col gap-6 w-full md:w-3/4">
           <CardOffre />
           <CardOffre />
           <CardOffre />
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 };
