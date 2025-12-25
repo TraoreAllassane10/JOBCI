@@ -16,7 +16,7 @@ const Nav = () => {
           Mes candidatures
         </Link>
         <Link
-          to=""
+          to="/favoris"
           className="p-1 bg-[#8DCBF4] flex items-center justify-center rounded"
         >
           <Bookmark size={18} />

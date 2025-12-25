@@ -3,7 +3,7 @@ import { Bookmark } from "lucide-react"
 const CardOffre = () => {
   return (
        <div>
-          <div className="flex flex-col gap-6 justify-evenly bg-white shadow rounded-md">
+          <div className="flex flex-col gap-6 justify-evenly bg-white shadow rounded-md hover:shadow-2xl cursor-pointer transition">
             <div className="p-4 flex flex-col gap-6 ">
               <div>
                 <h1 className="text-(--text-primary) font-bold text-2xl">
